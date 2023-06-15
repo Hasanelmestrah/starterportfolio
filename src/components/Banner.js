@@ -29,7 +29,7 @@ const Banner = () => {
               Hasan <span>EL-Mestrah</span>
             </motion.h1>
             <motion.div
-              variants={fadeIn("up", 0.3)}
+              variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -51,12 +51,22 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
-            <p className="mb-8 max-w-lg mx-auto lg:mx-0">
+            <motion.p
+              variants={fadeIn("up", 0.6)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="mb-8 max-w-lg mx-auto lg:mx-0">
               {" "}
               I'm driven by a passion for technology and the financial markets,
               and I'm constantly seeking new challenges and opportunities
-            </p>
-            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto">
+            </motion.p>
+            <motion.div
+              variants={fadeIn("up", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">Contact Me</button>
               <a
                 href="#"
@@ -64,9 +74,14 @@ const Banner = () => {
               text-gradient btn-link">
                 My Portfolio
               </a>
-            </div>
+            </motion.div>
             {/* socials */}
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+            <motion.div
+              variants={fadeIn("up", 0.8)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="#">
                 <FaYoutube />
               </a>
@@ -76,12 +91,16 @@ const Banner = () => {
               <a href="#">
                 <FaTwitter />
               </a>
-            </div>
+            </motion.div>
           </div>
           {/* image */}
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
+          <motion.div
+            variants={fadeIn("down", 0.6)}
+            initial="hidden"
+            whileInView={"show"}
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
             <img src={Image} alt="" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
