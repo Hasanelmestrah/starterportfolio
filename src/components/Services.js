@@ -22,9 +22,14 @@ const services = [
     link: "link is here",
   },
   {
-    name: "Broker",
+    name: "Forex IB",
     Description:
       "Start Tradnig now , with a partner top broker in lebano , stocks currency adnn crypto currency ",
+    link: "link is here",
+  },
+  {
+    name: "Web Hosting",
+    Description: "you can now host your dream website , without pay high fees",
     link: "link is here",
   },
 ];
@@ -56,9 +61,20 @@ const Services = () => {
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
                         {name}
                       </h4>
-                      <p>{description}</p>
+                      <p className="font-secondary leading-tight">
+                        {description}
+                      </p>
                     </div>
-                    <div>links</div>
+                    <div className="flex flex-col flex-1 items-end">
+                      <a
+                        href="#"
+                        className="btn w-9 h-9 mb=[42px] flex justify-center items-center">
+                        <BsArrowUpRight />
+                      </a>
+                      <a href="#" className="text-gradient text-sm">
+                        {link}
+                      </a>
+                    </div>
                   </div>
                 );
               })}
