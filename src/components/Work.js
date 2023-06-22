@@ -42,8 +42,8 @@ const Work = () => {
                 <span className="text-gradient">UI/Ux Design </span>
               </div>
               {/* title */}
-              <div>
-                <span> Project Title</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white"> Project Title</span>
               </div>
             </div>
           </div>
