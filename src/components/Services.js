@@ -13,24 +13,25 @@ const services = [
     name: "UI/UX Design",
     description:
       "lorema doadasmdiasdasdjadakdodlmadoiasmdioasdnad aksdmasodmas oasmdoaidsmasodp omaopd.",
-    link: "link is here",
+    link: "Learn more",
   },
   {
     name: "Web Developmen",
-    Description:
+    description:
       "i can build to you your dream website , and you start you bussines now ",
-    link: "link is here",
+    link: "Learn more",
   },
   {
     name: "Forex IB",
-    Description:
+    description:
       "Start Tradnig now , with a partner top broker in lebano , stocks currency adnn crypto currency ",
-    link: "link is here",
+    link: "Learn more",
   },
   {
     name: "Web Hosting",
-    Description: "you can now host your dream website , without pay high fees",
-    link: "link is here",
+    description:
+      "you can now host your dream website , without pay high fees, trust the process and don;t give up",
+    link: "Learn more",
   },
 ];
 const Services = () => {
@@ -39,16 +40,26 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/*text and img*/}
-          <div className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
+          <motion.div
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
             <h2 className="h2 text-accent mb-6"> What I do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance Front-end Dev with over 2 years of experience.
             </h3>
             <button className="btn btn-sm">See my work</button>
-          </div>
+          </motion.div>
           {/*services*/}
-          <div className="flex-1">
-            Description {/*services list*/}
+          <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1">
+            {/*services list*/}
             <div>
               {services.map((service, index) => {
                 //desctruction services
@@ -68,7 +79,7 @@ const Services = () => {
                     <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
-                        className="btn w-9 h-9 mb=[42px] flex justify-center items-center">
+                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center">
                         <BsArrowUpRight />
                       </a>
                       <a href="#" className="text-gradient text-sm">
@@ -79,7 +90,7 @@ const Services = () => {
                 );
               })}
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
