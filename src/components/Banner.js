@@ -2,7 +2,7 @@ import React from "react";
 //images
 import Image from "../assets/avatar.svg";
 //icons
-import { FaGithub, FaYoutube, FaDribble, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaWhatsapp, FaInstagram } from "react-icons/fa";
 //type animation
 import { TypeAnimation } from "react-type-animation";
 //motion
@@ -38,11 +38,15 @@ const Banner = () => {
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Web Developer",
                   2000,
-                  "Dreamer",
+                  "Builder",
                   2000,
                   "Investor",
+                  2000,
+                  "Trader",
+                  2000,
+                  "Beast",
                   2000,
                 ]}
                 speed={50}
@@ -82,14 +86,14 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
-                <FaYoutube />
+              <a href="https://Whatsapp.com">
+                <FaWhatsapp />
               </a>
               <a href="https://github.com/Hasanelmestrah">
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaTwitter />
+              <a href="https://instagram.com">
+                <FaInstagram />
               </a>
             </motion.div>
           </div>

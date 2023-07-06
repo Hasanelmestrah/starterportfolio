@@ -12,7 +12,7 @@ const services = [
   {
     name: "UI/UX Design",
     description:
-      "lorema doadasmdiasdasdjadakdodlmadoiasmdioasdnad aksdmasodmas oasmdoaidsmasodp omaopd.",
+      "i can build to you your dream website , and you start you bussines now",
     link: "Learn more",
   },
   {
