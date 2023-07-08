@@ -78,7 +78,12 @@ const Work = () => {
               </div>
             </div>
             {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <motion.div
+              variants={fadeIn("right", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
@@ -95,7 +100,7 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white"> Project Title</span>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
