@@ -61,9 +61,9 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0">
-              {" "}
-              I'm driven by a passion for technology and the financial markets,
-              and I'm constantly seeking new challenges and opportunities
+              Transforming Ideas into Exceptional Digital Solutions, Empowering
+              Businesses with Web Development Expertise and Investment
+              Strategies.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.7)}

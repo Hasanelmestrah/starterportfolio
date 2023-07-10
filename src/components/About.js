@@ -32,7 +32,9 @@ const About = () => {
             className="flex-1">
             <h2 className="h2 text-accent">About Me</h2>
             <h3 className="h3 mb-4">
-              I'm a Freelance Front-end Dev with over 2 years of experience.{" "}
+              As a seasoned software developer, I specialize in transforming
+              complex concepts into innovative solutions that drive business
+              growth and surpass client expectations
             </h3>
             <p className="mb-6">
               lorem ipsum dasdas sada sda adf df dfadca asasdas fasas asfasf

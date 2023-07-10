@@ -30,7 +30,11 @@ const Work = () => {
                 markets, and I'm constantly seeking new challenges and
                 opportunities
               </p>
-              <button className="btn btn-sm">View all Projects</button>
+              <button className="btn btn-sm">
+                <a href="https://www.github.com/hasanelmestrah">
+                  View all Projects
+                </a>
+              </button>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -44,11 +48,11 @@ const Work = () => {
               />
               {/* petitee */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/Ux Design </span>
+                <span className="text-gradient">Weather APP</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white"> Project Title</span>
+                <span className="text-3xl text-white">WeatherCity</span>
               </div>
             </div>
           </motion.div>
@@ -70,16 +74,16 @@ const Work = () => {
               />
               {/* petitee */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/Ux Design </span>
+                <span className="text-gradient">E-commerce</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white"> Project Title</span>
+                <span className="text-3xl text-white">Shop-Deal</span>
               </div>
             </div>
             {/* image */}
             <motion.div
-              variants={fadeIn("right", 0.4)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
@@ -94,11 +98,11 @@ const Work = () => {
               />
               {/* petitee */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/Ux Design </span>
+                <span className="text-gradient">WEB 3 Wallet</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white"> Project Title</span>
+                <span className="text-3xl text-white">MetaMask</span>
               </div>
             </motion.div>
           </motion.div>

@@ -10,19 +10,19 @@ import MyServices from "./Services";
 //services data
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Web Services",
     description:
-      "i can build to you your dream website , and you start you bussines now",
+      "Unlock the Full Potential of Your Business with an Unforgettable Website Experience",
     link: "Learn more",
   },
   {
-    name: "Web Developmen",
+    name: "Marketing",
     description:
-      "i can build to you your dream website , and you start you bussines now ",
+      "Ignite Your Business's Success with Cutting-Edge Marketing Strategies that Propel Your Brand to New Heights",
     link: "Learn more",
   },
   {
-    name: "Forex IB",
+    name: "Forex Account",
     description:
       "Start Tradnig now , with a partner top broker in lebano , stocks currency adnn crypto currency ",
     link: "Learn more",
